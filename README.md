@@ -1,4 +1,4 @@
-# Frontend-Web-Site with Videokod
+# Frontend-Website with Videokod
 here is the link of tutorial :
 https://www.youtube.com/watch?v=R08arVvEFxk&ab_channel=VideoKod
 ![FrontendWebSite](https://user-images.githubusercontent.com/74265465/149151831-f370d286-d9cf-44d1-9c10-b5bd33fc165e.png)
