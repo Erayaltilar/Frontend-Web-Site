@@ -1,0 +1,252 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    box-shadow:0px -2px 9px 0px #0000008c ;
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
+}
+.header-fix {
+    height: 52px;
+}
+.post h3.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+img.author-img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.image-post{
+    position: relative;
+    height: 192px;
+    overflow: hidden;
+}
+
+.image-post .meta-category-small {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+span.author.pr-2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+span.icon-inside {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    color: gray;
+    z-index: 1000;
+}
+span.date {
+    font-size: 14px;
+    color: grey;
+}
+
+.post-category{
+    padding: 10px;
+    color: white;
+}
+.color-2{
+    background-color: blueviolet;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown {
+    padding: 0 9px 5px;
+    position: initial;
+}
+.dropdown-menu {
+    min-width: 200px;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* posts */
+
+
+.posts-title {
+    margin: 10px 0 30px 0;
+}
+
+.posts-title.description {
+    color: #777;
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p.content.mt-2 {
+    line-height: 1.6;
+    color: #777;
+    font-size: 16px;
+}
+.social-count-icons ul li a:before{
+ font-family: FontAwesome;
+ position: absolute;
+ top: 8px;
+ left: 0;
+ right: 0;
+ width: 100%;
+ font-size: 22px;
+ text-align: center;
+}
+.count-facebook {
+    color: #45629f;
+}
+.count-facebook a:before {
+    content: "\f09a";
+}
+.count-instagram a:before {
+    content: "\f16d";
+}
+.count-twitter a:before {
+    content: "\f099";
+}
+.count-youtube a:before {
+    content: "\f167";
+}
+.count-whatsapp a:before {
+    content: "\f232";
+}
+.count-location a:before {
+    content: "\f3c5";
+}
+.count-linkedin a:before {
+    content: "\f0e1";
+}
+
+
+.social-count-icons li {
+    text-align: center;
+    width: 25%;
+    margin: 0;
+    padding: 40px 0 10px 0;
+    background: #f8f9fa !important;
+    float: left;
+    position: relative;
+}
+
+.items .count {
+    font-weight: bold;
+}
+
+*.items {
+    font-size: 12px;
+}
+
+a.post-category:hover {
+    color: #fff !important;
+}
+
+.sidebar {
+    position: sticky;
+    top: 67px;
+}
+.widget {
+    margin-bottom: 20px;
+    display: grid;
+}
+.widget-title {
+    padding-bottom: 20px;
+    margin: 10px 0 20px 0;
+    border-bottom: 1px solid #e2e3e7;
+}
+
+.widget-title h2 {
+    line-height: 1.2;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+a.feature-image.feature-image-link.col-2 {
+    width: 30%;
+}
+.image-showcase-post .thumb {
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+} 
+
+.image-showcase-post {
+    overflow: hidden;
+}
+.details *{
+    color: white;
+}
+.details {
+    transition: all .3s ease;
+    position: absolute;
+    width: 100%;
+    bottom: -55px;
+    padding: 15px;
+    background: linear-gradient(180deg,transparent,black);
+}
+.thumb .details .meta-info {
+margin-top:15px ;
+}
+img.image-post-thumb {
+    width: 100%;
+    object-fit:cover ;
+    height: 100%;
+}
+.image-showcase-post:hover .thumb .details {
+    bottom: 0;
+}
+
+footer {
+    background-color: #030303;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+footer * {
+    color: white !important;
+}
+
+footer .widget-title{
+    border-bottom: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+ul.custom-list li {
+    border-bottom: 1px solid #525252;
+    line-height: 3;
+}
+
+.custom-list span{
+    width: 26px;
+    height: 26px;
+    top: 10px;
+    text-align: center;
+    position: relative;
+    padding: 8px 8px 0 6px;
+    line-height: 1;
+    font-size: 11px;
+    border-radius: 50%;
+    background-color: #595959;
+    float: right;
+}
+
+ul.custom-list {
+    list-style-type: none;
+}
